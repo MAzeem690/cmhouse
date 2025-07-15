@@ -38,7 +38,7 @@ body {
 .nav-links {
   display: flex;
   gap: 20px;
- justify-content: flex-end;
+ justify-content: center;
  align-items: center;
   flex: 2 1 auto;
   margin-left: 320px;
@@ -348,40 +348,7 @@ body {
   border: 2px solid green;
   border-radius: 8px;
 }
-@media (max-width: 768px) {
-  .cm-section {
-    flex-direction: column;
-    padding: 20px;
-    text-align: center;
-  }
 
-  .cm-content, .cm-image {
-    flex: none;
-    width: 100%;
-  }
-
-  .cm-image img {
-    max-width: 60%;
-    margin-top: 20px;
-  }
-
-  .cm-content h2 {
-    font-size: 26px;
-  }
-
-  .cm-content h3 {
-    font-size: 20px;
-  }
-
-  .cm-content p {
-    font-size: 16px;
-  }
-
-  .cm-button {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-}
 #priorities-section {
   text-align: center;
   padding: 60px 20px;
